@@ -19,12 +19,12 @@ ACCOUNTS = [
     {
         "username": "AhmedAbubaker98",
         "token": os.getenv("TOKEN_PERSONAL"),
-        "emails": ["personal@email.com"],
+        "emails": ["ahmedkata@gmail.com"],
     },
     {
         "username": "AhmedElagibMarkaba",
         "token": os.getenv("TOKEN_WORK"),
-        "emails": ["work@email.com"],
+        "emails": ["ahmedelagibmarkaba@gmail.com"],
     },
 ]
 
