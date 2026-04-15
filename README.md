@@ -75,24 +75,24 @@ These aren't conference selfies. At [Money20/20 Middle East](https://www.money20
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/money2020-stage.jpg" alt="Pitching at Center of Entrepreneurship" width="100%"/>
+      <img src="assets\1000139981.jpg" alt="Pitching at Center of Entrepreneurship" width="100%"/>
       <br/>
-      <sub><b>Pitching at a fintech competition — Center of Entrepreneurship</b></sub>
+      <sub><b>Pitching at the Center of Digital Entrepreneurship (CODE) - </b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/money2020-booth-demo.jpg" alt="Live demo at Money20/20 Middle East" width="100%"/>
+      <img src="assets\1000143886 (1).jpg" alt="Live demo at Money20/20 Middle East" width="100%"/>
       <br/>
       <sub><b>Live product demo — Money20/20 Middle East, Markaba booth</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/money2020-investor.jpg" alt="Investor conversation at Money20/20" width="100%"/>
+      <img src="assets\1000143090.jpg" alt="Investor conversation at Money20/20" width="100%"/>
       <br/>
       <sub><b>Investor conversation — explaining the data architecture behind the product</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/money2020-booth-screen.jpg" alt="Platform demo at Markaba booth" width="100%"/>
+      <img src="assets\1000143221.jpg" alt="Platform demo at Markaba booth" width="100%"/>
       <br/>
       <sub><b>Platform walkthrough — showing the valuation engine live</b></sub>
     </td>
