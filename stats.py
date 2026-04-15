@@ -4,8 +4,8 @@ import os
 import json
 
 ACCOUNTS = [
-    {"username": "your_personal", "token": os.getenv("TOKEN_PERSONAL")},
-    {"username": "your_work", "token": os.getenv("TOKEN_WORK")}
+    {"username": "AhmedAbubaker98", "token": os.getenv("TOKEN_PERSONAL")},
+    {"username": "AhmedElagibMarkaba", "token": os.getenv("TOKEN_WORK")}
 ]
 
 QUERY = """
