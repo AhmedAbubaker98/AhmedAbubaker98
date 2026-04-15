@@ -1,22 +1,81 @@
 {
+  "generated_at": "2026-04-15T17:46:30.706003+00:00",
+  "mode": "accurate_commit_history",
   "totals": {
-    "commits": 428,
-    "prs": 58,
-    "issues": 24,
-    "restricted": 0
+    "commits": 0
   },
   "breakdown": {
     "AhmedAbubaker98": {
-      "commits": 238,
-      "prs": 23,
-      "issues": 1,
-      "restricted": 0
+      "commits": 0,
+      "repos_scanned": 28,
+      "emails": [
+        "personal@email.com"
+      ]
     },
     "AhmedElagibMarkaba": {
-      "commits": 190,
-      "prs": 35,
-      "issues": 23,
-      "restricted": 0
+      "commits": 0,
+      "repos_scanned": 24,
+      "emails": [
+        "work@email.com"
+      ]
+    }
+  },
+  "per_repo": {
+    "AhmedAbubaker98": {
+      "AhmedAbubaker98/AhmedAbubaker98": 0,
+      "AhmedAbubaker98/AhmedAbubaker98.github.io": 0,
+      "AhmedAbubaker98/AhmedAbubaker981": 0,
+      "AhmedAbubaker98/Borda_Academy_Submission-Embedded-Software-Internship": 0,
+      "AhmedAbubaker98/Cora": 0,
+      "AhmedAbubaker98/DataGlacierInternship": 0,
+      "AhmedAbubaker98/DEMO": 0,
+      "AhmedAbubaker98/EDA": 0,
+      "AhmedAbubaker98/ESP32_FakeFleet": 0,
+      "AhmedAbubaker98/flaskapp-DataGlacier": 0,
+      "AhmedAbubaker98/GitInsight": 0,
+      "AhmedAbubaker98/GitInsight-V1": 0,
+      "AhmedAbubaker98/HiveBox": 0,
+      "AhmedAbubaker98/Kintsugi": 0,
+      "AhmedAbubaker98/Leffa-main": 0,
+      "AhmedAbubaker98/Leffa-mod": 0,
+      "AhmedAbubaker98/markaba-market-intel": 0,
+      "AhmedAbubaker98/Playground": 0,
+      "AhmedAbubaker98/Python": 0,
+      "AhmedAbubaker98/Python_Practice": 0,
+      "AhmedAbubaker98/randoms": 0,
+      "AhmedAbubaker98/SCARA-control-center": 0,
+      "AhmedAbubaker98/skills-introduction-to-repository-management": 0,
+      "AhmedAbubaker98/skills-introduction-to-secret-scanning": 0,
+      "AhmedAbubaker98/skills-secure-repository-supply-chain": 0,
+      "AhmedAbubaker98/slim": 0,
+      "AhmedAbubaker98/Vercelw": 0,
+      "Exp-Intro-to-GitHub-Flow-Cohort-1/series-intro-to-github-flow-AhmedAbubaker98": 0
+    },
+    "AhmedElagibMarkaba": {
+      "AhmedElagibMarkaba/Tamara-Demo": 0,
+      "emflex-co/car-image-processing": 0,
+      "emflex-co/Car-Valuation-Engine-Backend": 0,
+      "emflex-co/Car-Valuation-Engine-Frontend": 0,
+      "emflex-co/cars-trends-api": 0,
+      "emflex-co/embedded-platform": 0,
+      "emflex-co/emflex-api": 0,
+      "emflex-co/emflex-dashboard": 0,
+      "emflex-co/infrastructure": 0,
+      "emflex-co/intel-ai-engine": 0,
+      "emflex-co/lender-service": 0,
+      "emflex-co/markaba": 0,
+      "emflex-co/markaba-intel-backend": 0,
+      "emflex-co/markaba-intel-frontend": 0,
+      "emflex-co/markaba-intelligence-tool": 0,
+      "emflex-co/markaba-v2-backend": 0,
+      "emflex-co/markaba-v2-frontend": 0,
+      "emflex-co/merchant-service": 0,
+      "emflex-co/replit-mobile-app": 0,
+      "emflex-co/Simah-Credit-Scorer-Backend": 0,
+      "emflex-co/Simah-Credit-Scorer-Frontend": 0,
+      "emflex-co/trim_manager_backend": 0,
+      "emflex-co/trim_manager_frontend": 0,
+      "emflex-co/vm-infra": 0
     }
   }
 }

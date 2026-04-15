@@ -1,21 +1,16 @@
-## 🚀 Combined GitHub Stats
+## Combined GitHub Stats (Accurate Commit Mode)
 
 ### Totals
-- commits: 428
-- prs: 58
-- issues: 24
-- restricted: 0
+- commits: 0
 
 ### Breakdown
 
 **AhmedAbubaker98**
-- commits: 238
-- prs: 23
-- issues: 1
-- restricted: 0
+- commits: 0
+- repos_scanned: 28
+- emails: personal@email.com
 
 **AhmedElagibMarkaba**
-- commits: 190
-- prs: 35
-- issues: 23
-- restricted: 0
+- commits: 0
+- repos_scanned: 24
+- emails: work@email.com
