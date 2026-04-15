@@ -1,23 +1,12 @@
+from datetime import datetime, timedelta
 import requests
 import os
 import json
-from datetime import datetime
 
-# 🔐 Tokens (from GitHub Secrets)
 ACCOUNTS = [
-    {
-        "username": "AhmedAbubaker98",
-        "token": os.getenv("TOKEN_PERSONAL")
-    },
-    {
-        "username": "AhmedElagibMarkaba",
-        "token": os.getenv("TOKEN_WORK")
-    }
+    {"username": "your_personal", "token": os.getenv("TOKEN_PERSONAL")},
+    {"username": "your_work", "token": os.getenv("TOKEN_WORK")}
 ]
-
-# ⏳ Extend contribution window (adjust as needed)
-START_DATE = "2018-01-01T00:00:00Z"
-END_DATE = datetime.utcnow().isoformat() + "Z"
 
 QUERY = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -28,37 +17,48 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
       totalIssueContributions
       restrictedContributionsCount
     }
-    repositories(privacy: PUBLIC) {
-      totalCount
-    }
   }
 }
 """
 
-def fetch_user_data(username, token):
-    headers = {
-        "Authorization": f"Bearer {token}"
-    }
+def fetch_range(username, token, start, end):
+    headers = {"Authorization": f"Bearer {token}"}
 
-    response = requests.post(
+    r = requests.post(
         "https://api.github.com/graphql",
         json={
             "query": QUERY,
             "variables": {
                 "login": username,
-                "from": START_DATE,
-                "to": END_DATE
+                "from": start,
+                "to": end
             }
         },
         headers=headers
     )
 
-    data = response.json()
+    data = r.json()
 
     if "errors" in data:
-        raise Exception(f"Error fetching {username}: {data['errors']}")
+        raise Exception(data["errors"])
 
-    return data["data"]["user"]
+    return data["data"]["user"]["contributionsCollection"]
+
+
+def yearly_chunks(start_year=2019):
+    now = datetime.utcnow()
+    chunks = []
+
+    for year in range(start_year, now.year + 1):
+        start = datetime(year, 1, 1)
+        end = datetime(year + 1, 1, 1)
+
+        if end > now:
+            end = now
+
+        chunks.append((start.isoformat() + "Z", end.isoformat() + "Z"))
+
+    return chunks
 
 
 def aggregate():
@@ -66,79 +66,60 @@ def aggregate():
         "commits": 0,
         "prs": 0,
         "issues": 0,
-        "repos": 0,
         "restricted": 0
     }
 
     breakdown = {}
 
+    chunks = yearly_chunks(2019)
+
     for acc in ACCOUNTS:
-        username = acc["username"]
-        token = acc["token"]
+        u = acc["username"]
+        t = acc["token"]
 
-        print(f"Fetching {username}...")
-        data = fetch_user_data(username, token)
-
-        contribs = data["contributionsCollection"]
-
-        user_stats = {
-            "commits": contribs["totalCommitContributions"],
-            "prs": contribs["totalPullRequestContributions"],
-            "issues": contribs["totalIssueContributions"],
-            "repos": data["repositories"]["totalCount"],
-            "restricted": contribs["restrictedContributionsCount"]
+        user_total = {
+            "commits": 0,
+            "prs": 0,
+            "issues": 0,
+            "restricted": 0
         }
 
-        breakdown[username] = user_stats
+        print(f"Fetching {u}...")
 
-        # Aggregate totals
-        for key in totals:
-            totals[key] += user_stats[key]
+        for start, end in chunks:
+            c = fetch_range(u, t, start, end)
+
+            user_total["commits"] += c["totalCommitContributions"]
+            user_total["prs"] += c["totalPullRequestContributions"]
+            user_total["issues"] += c["totalIssueContributions"]
+            user_total["restricted"] += c["restrictedContributionsCount"]
+
+        breakdown[u] = user_total
+
+        for k in totals:
+            totals[k] += user_total[k]
 
     return totals, breakdown
 
 
-def save_outputs(totals, breakdown):
-    # JSON output
+def save(totals, breakdown):
     with open("stats.json", "w") as f:
-        json.dump({
-            "totals": totals,
-            "breakdown": breakdown
-        }, f, indent=2)
+        json.dump({"totals": totals, "breakdown": breakdown}, f, indent=2)
 
-    # Markdown output (for README)
     with open("stats.md", "w") as f:
-        f.write(f"""
-## 🚀 Combined GitHub Stats
+        f.write("## 🚀 Combined GitHub Stats\n\n")
 
-### 🧮 Totals
-- 💻 Commits: {totals['commits']}
-- 🔁 Pull Requests: {totals['prs']}
-- 🐛 Issues: {totals['issues']}
-- 📦 Repositories: {totals['repos']}
+        f.write("### Totals\n")
+        for k, v in totals.items():
+            f.write(f"- {k}: {v}\n")
 
-### 🔒 Private Contributions
-- 🔐 Private/Restricted Commits: {totals['restricted']}
-
----
-
-### 📊 Breakdown
-
-""")
-
-        for user, stats in breakdown.items():
-            f.write(f"""
-#### 👤 {user}
-- 💻 Commits: {stats['commits']}
-- 🔁 PRs: {stats['prs']}
-- 🐛 Issues: {stats['issues']}
-- 📦 Repos: {stats['repos']}
-- 🔐 Private: {stats['restricted']}
-""")
-
-    print("✅ stats.json and stats.md updated.")
+        f.write("\n### Breakdown\n")
+        for u, s in breakdown.items():
+            f.write(f"\n**{u}**\n")
+            for k, v in s.items():
+                f.write(f"- {k}: {v}\n")
 
 
 if __name__ == "__main__":
     totals, breakdown = aggregate()
-    save_outputs(totals, breakdown)
+    save(totals, breakdown)
