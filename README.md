@@ -124,7 +124,7 @@ These aren't conference selfies. At [Money20/20 Middle East](https://www.money20
 
 <br/>
 
-I write **[Series A](https://your-substack-link.substack.com)** — a newsletter delivering high-signal intelligence for Founders, VCs, and AI Engineers.
+I write **[Series A](https://theseriesa.substack.com/)** — a newsletter delivering high-signal intelligence for Founders, VCs, and AI Engineers.
 
 Not a summary digest. Not a hot take thread. Each issue covers one idea at the intersection of **engineering, markets, and building** — written by someone who's done the startup ops, shipped the infra, and sat in front of investors explaining both.
 
