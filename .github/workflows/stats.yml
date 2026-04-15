@@ -1,7 +1,6 @@
 name: Update GitHub Stats And Visuals
 
 on:
-  push:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
