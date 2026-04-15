@@ -1,15 +1,29 @@
 import argparse
 import csv
 from datetime import datetime, timezone, timedelta
+from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
+
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+ASSETS_DIR = REPO_ROOT / "assets"
+ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _resolve_path(path_value):
+    path = Path(path_value)
+    if path.is_absolute():
+        return path
+    return REPO_ROOT / path
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Generate commit graph SVG from timeline CSV (SVG-only)."
     )
-    parser.add_argument("--input", default="stats_timeline_monthly.csv", help="Input timeline CSV")
-    parser.add_argument("--svg-output", default="commit_graph.svg", help="Output SVG file")
+    parser.add_argument("--input", default="assets/stats_timeline_monthly.csv", help="Input timeline CSV")
+    parser.add_argument("--svg-output", default="assets/commit_graph.svg", help="Output SVG file")
     parser.add_argument(
         "--output",
         default=None,
@@ -29,8 +43,8 @@ def parse_args():
 def load_series(csv_path, account, granularity):
     x_field = "date" if granularity == "daily" else "month"
     
-    # Calculate one year ago from today (April 15, 2026)
-    today = datetime(2026, 4, 15).date()
+    # Calculate one year ago from current UTC date.
+    today = datetime.now(timezone.utc).date()
     one_year_ago = today - timedelta(days=365)
 
     points = []
@@ -324,11 +338,13 @@ def render_svg(payload):
 
 def main():
     args = parse_args()
-    svg_output = args.output if args.output else args.svg_output
+    input_path = _resolve_path(args.input)
+    svg_output = _resolve_path(args.output if args.output else args.svg_output)
 
-    points = load_series(args.input, args.account, args.granularity)
+    points = load_series(str(input_path), args.account, args.granularity)
     payload = build_payload(args.title, args.account, args.granularity, points)
 
+    svg_output.parent.mkdir(parents=True, exist_ok=True)
     with open(svg_output, "w", encoding="utf-8") as file:
         file.write(render_svg(payload))
 

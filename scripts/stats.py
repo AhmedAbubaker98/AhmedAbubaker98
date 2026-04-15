@@ -2,6 +2,7 @@ import csv
 from datetime import datetime, timezone
 import json
 import os
+from pathlib import Path
 import time
 
 import requests
@@ -123,7 +124,13 @@ def _extract_error_message(data):
     return str(data)
 
 
-_load_dotenv()
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+ASSETS_DIR = REPO_ROOT / "assets"
+ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+
+for dotenv_path in (SCRIPT_DIR / ".env", REPO_ROOT / ".env"):
+    _load_dotenv(str(dotenv_path))
 
 
 GITHUB_API = "https://api.github.com"
@@ -564,8 +571,8 @@ def aggregate():
 
 
 def save_timeline_csvs(timelines):
-    daily_path = "stats_timeline_daily.csv"
-    monthly_path = "stats_timeline_monthly.csv"
+    daily_path = ASSETS_DIR / "stats_timeline_daily.csv"
+    monthly_path = ASSETS_DIR / "stats_timeline_monthly.csv"
 
     with open(daily_path, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
@@ -609,10 +616,10 @@ def save(totals, breakdown, per_repo, repo_errors, timelines):
         "timelines": timelines,
     }
 
-    with open("stats.json", "w", encoding="utf-8") as file:
+    with open(ASSETS_DIR / "stats.json", "w", encoding="utf-8") as file:
         json.dump(payload, file, indent=2)
 
-    with open("stats.md", "w", encoding="utf-8") as file:
+    with open(ASSETS_DIR / "stats.md", "w", encoding="utf-8") as file:
         file.write("## Combined GitHub Stats (Hybrid Mode)\n\n")
 
         file.write("### Period\n")
@@ -642,8 +649,8 @@ def save(totals, breakdown, per_repo, repo_errors, timelines):
         file.write("\n### Timelines\n")
         file.write(f"- source: {timelines['source']}\n")
         file.write(f"- combined_daily_points: {len(timelines['combined_by_day'])}\n")
-        file.write(f"- csv_daily: stats_timeline_daily.csv\n")
-        file.write(f"- csv_monthly: stats_timeline_monthly.csv\n")
+        file.write(f"- csv_daily: assets/stats_timeline_daily.csv\n")
+        file.write(f"- csv_monthly: assets/stats_timeline_monthly.csv\n")
 
     save_timeline_csvs(timelines)
 

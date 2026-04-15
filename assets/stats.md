@@ -2,7 +2,7 @@
 
 ### Period
 - from: 2019-01-01T00:00:00Z
-- to: 2026-04-15T19:44:20Z
+- to: 2026-04-15T20:19:19Z
 - commit_selection: higher
 
 ### Totals
@@ -40,5 +40,5 @@
 ### Timelines
 - source: accurate_repo_history
 - combined_daily_points: 114
-- csv_daily: stats_timeline_daily.csv
-- csv_monthly: stats_timeline_monthly.csv
+- csv_daily: assets/stats_timeline_daily.csv
+- csv_monthly: assets/stats_timeline_monthly.csv

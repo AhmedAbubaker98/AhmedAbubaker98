@@ -7,17 +7,17 @@ on:
   workflow_dispatch:
     inputs:
       run_stats:
-        description: "Run stats.py"
+        description: "Run scripts/stats.py"
         required: true
         default: true
         type: boolean
       run_blocks:
-        description: "Run generate_commit_blocks.py"
+        description: "Run scripts/generate_commit_blocks.py"
         required: true
         default: true
         type: boolean
       run_graph:
-        description: "Run generate_commit_graph.py"
+        description: "Run scripts/generate_commit_graph.py"
         required: true
         default: true
         type: boolean
@@ -51,19 +51,19 @@ jobs:
         env:
           TOKEN_PERSONAL: ${{ secrets.TOKEN_PERSONAL }}
           TOKEN_WORK: ${{ secrets.TOKEN_WORK }}
-        run: python stats.py
+        run: python scripts/stats.py
 
       - name: Run animated commit blocks
         if: github.event_name != 'workflow_dispatch' || inputs.run_blocks
         run: |
           ACCOUNT="${{ github.event_name == 'workflow_dispatch' && inputs.account || '__combined__' }}"
-          python generate_commit_blocks.py --account "$ACCOUNT"
+          python scripts/generate_commit_blocks.py --account "$ACCOUNT"
 
       - name: Run animated commit graph
         if: github.event_name != 'workflow_dispatch' || inputs.run_graph
         run: |
           ACCOUNT="${{ github.event_name == 'workflow_dispatch' && inputs.account || '__combined__' }}"
-          python generate_commit_graph.py --account "$ACCOUNT" --granularity monthly
+          python scripts/generate_commit_graph.py --account "$ACCOUNT" --granularity monthly
 
       - name: Commit and push if changed
         run: |
@@ -71,12 +71,12 @@ jobs:
           git config user.email "actions@github.com"
 
           git add \
-            stats.json \
-            stats.md \
-            stats_timeline_daily.csv \
-            stats_timeline_monthly.csv \
-            commit_blocks.svg \
-            commit_graph.svg
+            assets/stats.json \
+            assets/stats.md \
+            assets/stats_timeline_daily.csv \
+            assets/stats_timeline_monthly.csv \
+            assets/commit_blocks.svg \
+            assets/commit_graph.svg
 
           git diff --cached --quiet || git commit -m "Update stats and visualizations"
           git push

@@ -1,6 +1,10 @@
 import argparse
+from pathlib import Path
 import subprocess
 import sys
+
+
+SCRIPT_DIR = Path(__file__).resolve().parent
 
 
 def parse_args():
@@ -14,12 +18,12 @@ def parse_args():
     )
     parser.add_argument(
         "--blocks-svg-output",
-        default="commit_blocks.svg",
+        default="assets/commit_blocks.svg",
         help="Output file for commit blocks SVG",
     )
     parser.add_argument(
         "--graph-svg-output",
-        default="commit_graph.svg",
+        default="assets/commit_graph.svg",
         help="Output file for commit graph SVG",
     )
     parser.add_argument(
@@ -36,7 +40,7 @@ def main():
 
     blocks_cmd = [
         sys.executable,
-        "generate_commit_blocks.py",
+        str(SCRIPT_DIR / "generate_commit_blocks.py"),
         "--account",
         args.account,
         "--svg-output",
@@ -45,7 +49,7 @@ def main():
 
     graph_cmd = [
         sys.executable,
-        "generate_commit_graph.py",
+        str(SCRIPT_DIR / "generate_commit_graph.py"),
         "--account",
         args.account,
         "--granularity",

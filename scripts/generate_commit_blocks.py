@@ -1,15 +1,29 @@
 import argparse
 import csv
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
+
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+ASSETS_DIR = REPO_ROOT / "assets"
+ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _resolve_path(path_value):
+    path = Path(path_value)
+    if path.is_absolute():
+        return path
+    return REPO_ROOT / path
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Generate commit blocks SVG from daily timeline CSV (SVG-only)."
     )
-    parser.add_argument("--input", default="stats_timeline_daily.csv", help="Path to daily timeline CSV")
-    parser.add_argument("--svg-output", default="commit_blocks.svg", help="Output SVG file")
+    parser.add_argument("--input", default="assets/stats_timeline_daily.csv", help="Path to daily timeline CSV")
+    parser.add_argument("--svg-output", default="assets/commit_blocks.svg", help="Output SVG file")
     parser.add_argument(
         "--output",
         default=None,
@@ -317,11 +331,13 @@ def render_svg(payload):
 
 def main():
     args = parse_args()
-    svg_output = args.output if args.output else args.svg_output
+    input_path = _resolve_path(args.input)
+    svg_output = _resolve_path(args.output if args.output else args.svg_output)
 
-    counts = load_daily_counts(args.input, args.account)
+    counts = load_daily_counts(str(input_path), args.account)
     payload = build_payload(args.title, args.account, counts)
 
+    svg_output.parent.mkdir(parents=True, exist_ok=True)
     with open(svg_output, "w", encoding="utf-8") as file:
         file.write(render_svg(payload))
 
