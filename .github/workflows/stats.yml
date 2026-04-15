@@ -1,42 +1,82 @@
-name: Update GitHub Stats
+name: Update GitHub Stats And Visuals
 
 on:
   push:
   schedule:
-    - cron: "0 0 * * *"   # Runs daily at midnight UTC
-  workflow_dispatch:       # Allows manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      run_stats:
+        description: "Run stats.py"
+        required: true
+        default: true
+        type: boolean
+      run_blocks:
+        description: "Run generate_commit_blocks.py"
+        required: true
+        default: true
+        type: boolean
+      run_graph:
+        description: "Run generate_commit_graph.py"
+        required: true
+        default: true
+        type: boolean
+      account:
+        description: "Account for visualization scripts (__combined__ or username)"
+        required: false
+        default: "__combined__"
+        type: string
+
 permissions:
-  contents: write          
+  contents: write
 
 jobs:
-  update-stats:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: 🐍 Setup Python
-        uses: actions/setup-python@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: pip install requests
 
-      - name: 🚀 Run stats aggregation
+      - name: Run stats aggregation
+        if: github.event_name != 'workflow_dispatch' || inputs.run_stats
         env:
           TOKEN_PERSONAL: ${{ secrets.TOKEN_PERSONAL }}
           TOKEN_WORK: ${{ secrets.TOKEN_WORK }}
         run: python stats.py
 
-      - name: 📝 Commit & push if changed
+      - name: Run animated commit blocks
+        if: github.event_name != 'workflow_dispatch' || inputs.run_blocks
+        run: |
+          ACCOUNT="${{ github.event_name == 'workflow_dispatch' && inputs.account || '__combined__' }}"
+          python generate_commit_blocks.py --account "$ACCOUNT"
+
+      - name: Run animated commit graph
+        if: github.event_name != 'workflow_dispatch' || inputs.run_graph
+        run: |
+          ACCOUNT="${{ github.event_name == 'workflow_dispatch' && inputs.account || '__combined__' }}"
+          python generate_commit_graph.py --account "$ACCOUNT" --granularity monthly
+
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add stats.json stats.md
+          git add \
+            stats.json \
+            stats.md \
+            stats_timeline_daily.csv \
+            stats_timeline_monthly.csv \
+            commit_blocks.svg \
+            commit_graph.svg
 
-          git diff --cached --quiet || git commit -m "📊 Update aggregated GitHub stats"
-
+          git diff --cached --quiet || git commit -m "Update stats and visualizations"
           git push

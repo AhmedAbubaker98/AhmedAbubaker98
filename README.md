@@ -1,5 +1,19 @@
 ## Hi there 👋
 
+## Commit Visuals
+
+<div align="center">
+	<img src="./commit_blocks.svg" alt="Commit blocks heatmap" width="100%" />
+</p>
+
+<p align="center">
+	<img src="./commit_graph.svg" alt="Commit graph" width="100%" />
+</p>
+
+<p align="center">
+	SVG files are generated automatically by workflow and local scripts.
+</p>
+
 <!--
 **AhmedAbubaker98/AhmedAbubaker98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
