@@ -9,6 +9,12 @@
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#) [![Substack](https://img.shields.io/badge/Series_A-FF6719?logo=substack&logoColor=fff)](https://theseriesa.substack.com/) [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](#)
 </div>
 
+<div align="center">
+
+[Stack](#the-stack) · [Activity](#commit-activity) ·[Projects](#selected-projects) · [In The Field](#in-the-field) · [Series A](#series-a--my-newsletter) · [Open To](#open-to)
+
+</div>
+
 ---
 
 ## What I Do
