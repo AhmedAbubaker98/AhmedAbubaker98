@@ -89,7 +89,7 @@ def _get_json_with_retries(url, token, params=None, max_retries=3):
 
 
 def _validate_accounts(accounts):
-    placeholder_emails = {"personal@email.com", "work@email.com"}
+    placeholder_emails = {"ahmedkata@gmail.com", "ahmedelagibmarkaba@gmail.com"}
 
     for account in accounts:
         username = account.get("username", "<unknown>")
