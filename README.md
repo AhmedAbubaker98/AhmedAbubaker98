@@ -6,10 +6,7 @@
 
 *I build the data infrastructure, then I go explain it to the room.*
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?logo=substack&logoColor=fff)](https://theseriesa.substack.com/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](#)
-
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](#) [![Substack](https://img.shields.io/badge/Series_A-FF6719?logo=substack&logoColor=fff)](https://theseriesa.substack.com/) [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](#)
 </div>
 
 ---
@@ -77,7 +74,7 @@ These aren't conference selfies. At [Money20/20 Middle East](https://www.money20
     <td align="center" width="50%">
       <img src="assets\1000139981.jpg" alt="Pitching at Center of Entrepreneurship" width="100%"/>
       <br/>
-      <sub><b>Pitching at the Center of Digital Entrepreneurship (CODE) - </b></sub>
+      <sub><b>Pitching at the Center of Digital Entrepreneurship (CODE) </b></sub>
     </td>
     <td align="center" width="50%">
       <img src="assets\1000143886 (1).jpg" alt="Live demo at Money20/20 Middle East" width="100%"/>
@@ -109,6 +106,35 @@ These aren't conference selfies. At [Money20/20 Middle East](https://www.money20
 - 🔒 Served as sole incident responder during a live cyberattack — rotated AWS root credentials, secured CI/CD environments, recovered production PostgreSQL DB from a locked GCP account to Neon with **zero data loss**
 - 📊 Replaced 2,400 lines of ad-hoc SQL with 38 dbt models — cut data incident rate from ~7/month to <2
 - 🏆 **Money20/20 Middle East Pitch Competition Finalist** — demoed live to fintech investors
+
+---
+## Series A
+
+<div align="center">
+  <a href="https://theseriesa.substack.com/">
+    <img src="assets\Comp 4 (0;00;00;00).png" alt="Series A Newsletter" width="100%"/>
+  </a>
+</div>
+
+<br/>
+
+I write **[Series A](https://your-substack-link.substack.com)** — a newsletter delivering high-signal intelligence for Founders, VCs, and AI Engineers.
+
+Not a summary digest. Not a hot take thread. Each issue covers one idea at the intersection of **engineering, markets, and building** — written by someone who's done the startup ops, shipped the infra, and sat in front of investors explaining both.
+
+**What you'll find:**
+- How real data systems get built inside fast-moving companies
+- Funding signals and what they mean for technical founders
+- AI engineering patterns that actually make it to production
+- The decisions nobody writes about until the company exits
+
+<div align="center">
+  <a href="https://theseriesa.substack.com/">
+    <img src="assets\Screenshot 2026-04-10 214343.png" alt="Series A Newsletter" width="100%"/>
+  </a>
+</div>
+
+**→ [Read and subscribe on Substack](https://theseriesa.substack.com/)**
 
 ---
 
