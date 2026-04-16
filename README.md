@@ -24,7 +24,7 @@ I'm a backend and data platform engineer with 3 years of experience building sys
 My work sits at the intersection of **data engineering**, **cloud infrastructure**, and **backend systems** — I design the pipelines, own the infra they run on, and work directly with product and business stakeholders to turn raw data into decisions.
 
 - 🏗 Currently: Building [`GitInsight`](https://github.com/AhmedElagibMarkaba/gitinsight) — an AI codebase intelligence platform (FastAPI · Redis · Kubernetes · OpenAI)
-- ⚡ In progress: [`StreamSentinel`](https://github.com/AhmedElagibMarkaba) — real-time fraud detection engine (Go · Kafka · PostgreSQL)
+<!-- - ⚡ In progress: [`StreamSentinel`](https://github.com/AhmedElagibMarkaba) — real-time fraud detection engine (Go · Kafka · PostgreSQL) -->
 - 🌍 Goal: Data Platform Engineer at a European tech company (NL-focused)
 - ☁️ Certified: **AWS Solutions Architect – Associate** · **GitHub Advanced Security**
 
@@ -63,7 +63,7 @@ stack = {
 | Project | Stack | What it does |
 |---|---|---|
 | [**GitInsight**](https://github.com/AhmedAbubaker98/GitInsight) | FastAPI · Redis · PostgreSQL · K8s · OpenAI | AI codebase intelligence: ingest any GitHub repo, surface architecture insights, dependency graphs, and natural-language explanations. Deployed on Kubernetes with HPA + full CI/CD. |
-| [**StreamSentinel**](https://github.com/AhmedElagibMarkaba) *(WIP)* | Go · Apache Kafka · PostgreSQL | Real-time fraud detection engine — Kafka consumer, rule-based anomaly detection, sub-100ms latency target. |
+<!-- | [**StreamSentinel**](https://github.com/AhmedElagibMarkaba) *(WIP)* | Go · Apache Kafka · PostgreSQL | Real-time fraud detection engine — Kafka consumer, rule-based anomaly detection, sub-100ms latency target. | -->
 | **Vehicle Valuation Engine (proprietary)** | Python · FastAPI · PostgreSQL · dbt | Multi-source ingestion platform for 5 automotive data providers + pricing computation engine (customs, VAT, SASO, markup) for an Antler-backed fintech. |
 
 ## A Few Things I've Shipped
