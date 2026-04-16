@@ -23,7 +23,7 @@ I'm a backend and data platform engineer with 3 years of experience building sys
 
 My work sits at the intersection of **data engineering**, **cloud infrastructure**, and **backend systems** — I design the pipelines, own the infra they run on, and work directly with product and business stakeholders to turn raw data into decisions.
 
-- 🏗 Currently: Building [`GitInsight`](https://github.com/AhmedElagibMarkaba/gitinsight) — an AI codebase intelligence platform (FastAPI · Redis · Kubernetes · OpenAI)
+- 🏗 Currently: Building [`GitInsight`](https://github.com/AhmedAbubaker98/GitInsight) — an AI codebase intelligence platform (FastAPI · Redis · Kubernetes · OpenAI)
 - 🌍 Goal: Data Platform Engineer at a European tech company (NL-focused)
 - ☁️ Certified: **AWS Solutions Architect – Associate** · **GitHub Advanced Security**
 
