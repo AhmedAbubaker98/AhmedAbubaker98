@@ -62,48 +62,9 @@ stack = {
 
 | Project | Stack | What it does |
 |---|---|---|
-| [**GitInsight**](https://github.com/AhmedElagibMarkaba/gitinsight) | FastAPI · Redis · PostgreSQL · K8s · OpenAI | AI codebase intelligence: ingest any GitHub repo, surface architecture insights, dependency graphs, and natural-language explanations. Deployed on Kubernetes with HPA + full CI/CD. |
+| [**GitInsight**](https://github.com/AhmedAbubaker98/GitInsight) | FastAPI · Redis · PostgreSQL · K8s · OpenAI | AI codebase intelligence: ingest any GitHub repo, surface architecture insights, dependency graphs, and natural-language explanations. Deployed on Kubernetes with HPA + full CI/CD. |
 | [**StreamSentinel**](https://github.com/AhmedElagibMarkaba) *(WIP)* | Go · Apache Kafka · PostgreSQL | Real-time fraud detection engine — Kafka consumer, rule-based anomaly detection, sub-100ms latency target. |
-| [**Vehicle Valuation Engine**](https://github.com/AhmedElagibMarkaba) | Python · FastAPI · PostgreSQL · dbt | Multi-source ingestion platform for 5 automotive data providers + pricing computation engine (customs, VAT, SASO, markup) for an Antler-backed fintech. |
-
----
-
-## In The Field
-
-> *"The best engineers can build it and explain it to anyone in the room."*
-
-These aren't conference selfies. At [Money20/20 Middle East](https://www.money2020.com/), I was at the booth as the technical co-lead — demoing the product to investors, explaining the architecture to potential partners, and pitching live to fintech decision-makers.
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets\1000139981.jpg" alt="Pitching at Center of Entrepreneurship" width="100%"/>
-      <br/>
-      <sub><b>Pitching at the Center of Digital Entrepreneurship (CODE) </b></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets\1000143886 (1).jpg" alt="Live demo at Money20/20 Middle East" width="100%"/>
-      <br/>
-      <sub><b>Live product demo — Money20/20 Middle East, Markaba booth</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets\1000143090.jpg" alt="Investor conversation at Money20/20" width="100%"/>
-      <br/>
-      <sub><b>Investor conversation — explaining the data architecture behind the product</b></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets\1000143221.jpg" alt="Platform demo at Markaba booth" width="100%"/>
-      <br/>
-      <sub><b>Platform walkthrough — showing the valuation engine live</b></sub>
-    </td>
-  </tr>
-</table>
-</div>
-
----
+| **Vehicle Valuation Engine (proprietary)** | Python · FastAPI · PostgreSQL · dbt | Multi-source ingestion platform for 5 automotive data providers + pricing computation engine (customs, VAT, SASO, markup) for an Antler-backed fintech. |
 
 ## A Few Things I've Shipped
 
@@ -114,6 +75,46 @@ These aren't conference selfies. At [Money20/20 Middle East](https://www.money20
 - 🏆 **Money20/20 Middle East Pitch Competition Finalist** — demoed live to fintech investors
 
 ---
+
+## In The Field
+
+> *"The best engineers can build it and explain it to anyone in the room."*
+
+These aren't conference selfies. The first row is from the [SparkAngel](https://event.sparkangel.net/SparkAngelSpecialEdition1) Investor Mixer by Numu Angels, and the second row is from [Money20/20 Middle East](https://www.money2020.com/) where I represented the booth as the technical lead — demoing the product to customers, banks, and investors while explaining the architecture behind it.
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/sparkangel-investor-mixer-numu-angels-1.jpg" alt="SparkAngel Investor Mixer by Numu Angels" width="100%"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/sparkangel-investor-mixer-numu-angels-2.jpg" alt="SparkAngel Investor Mixer by Numu Angels" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <sub><b>SparkAngel Investor Mixer by Numu Angels at the Digital Government Authority</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/money2020-pitch-customers-banks-investors-1.jpg" alt="Pitching at Money20/20 for customers, banks, and investors" width="100%"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/money2020-pitch-customers-banks-investors-2.jpg" alt="Pitching at Money20/20 for customers, banks, and investors" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <sub><b>Pitching at Money20/20 for customers, banks, and investors</b></sub>
+    </td>
+  </tr>
+</table>
+</div>
+
+---
+
 ## Series A
 
 <div align="center">
@@ -149,7 +150,7 @@ Not a summary digest. Not a hot take thread. Each issue covers one idea at the i
 - 📖 *Designing Data-Intensive Applications* — Martin Kleppmann
 - 📖 *System Design Interview Vol. 1 & 2* — Alex Xu
 - 🧠 NeetCode DSA roadmap (daily)
-- ☁️ Databricks Certified Data Engineer Associate (in progress)
+- ☁️ Databricks Certified Data Engineer Professional (in progress)
 
 ---
 
@@ -161,3 +162,7 @@ Not a summary digest. Not a hot take thread. Each issue covers one idea at the i
 **Let's build something that actually moves data reliably.**
 
 </div>
+<!-- 
+![LeetCode Stats](https://www.readmecodegen.com/api/leetcode-stats/AhmedElagib?acceptance=false&reputation=false) -->
+
+<!-- ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AhmedAbubaker98&theme=dracula)| -->
