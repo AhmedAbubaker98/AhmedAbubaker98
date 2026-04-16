@@ -11,7 +11,7 @@
 
 <div align="center">
 
-[Stack](#the-stack) · [Activity](#commit-activity) ·[Projects](#selected-projects) · [In The Field](#in-the-field) · [Series A](#series-a--my-newsletter) · [Open To](#open-to)
+[Stack](#the-stack) · [Activity](#commit-activity-work--personal) ·[Projects](#selected-projects) · [In The Field](#in-the-field) · [Series A](#series-a) · [Open To](#open-to)
 
 </div>
 
@@ -152,9 +152,12 @@ Not a summary digest. Not a hot take thread. Each issue covers one idea at the i
 
 ---
 
+
+
+## Open To
 <div align="center">
 
-*Open to Data Platform / Data Engineering roles in the Netherlands.*
+*Data Platform / Data Engineering roles in the Netherlands*
 *Familiar with HSM visa process. Ready to relocate.*
 
 **Let's build something that actually moves data reliably.**
