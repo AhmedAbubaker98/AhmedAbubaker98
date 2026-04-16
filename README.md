@@ -45,7 +45,7 @@ stack = {
 
 ---
 
-## Commit Activity
+## Commit Activity (Work + Personal)
 
 <div align="center">
 
