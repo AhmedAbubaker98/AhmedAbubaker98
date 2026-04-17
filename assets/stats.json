@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-04-17T02:25:01Z",
+  "generated_at": "2026-04-17T09:57:49Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-04-17T02:23:51Z"
+    "to": "2026-04-17T09:56:34Z"
   },
   "selection": {
     "commit_selection": "higher",
     "graphql_fallback_enabled": true
   },
   "totals": {
-    "commits": 429,
-    "accurate_commits": 425,
-    "fallback_commits": 428,
+    "commits": 430,
+    "accurate_commits": 426,
+    "fallback_commits": 429,
     "prs": 58,
     "issues": 24,
     "restricted": 0
   },
   "breakdown": {
     "AhmedAbubaker98": {
-      "commits": 238,
+      "commits": 239,
       "final_source": "graphql_contributions",
-      "accurate_commits": 234,
-      "fallback_commits": 238,
+      "accurate_commits": 235,
+      "fallback_commits": 239,
       "prs": 23,
       "issues": 1,
       "restricted": 0,
@@ -33,7 +33,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-04-17T02:23:51Z"
+        "to": "2026-04-17T09:56:34Z"
       },
       "fallback_error": null
     },
@@ -52,7 +52,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-04-17T02:23:51Z"
+        "to": "2026-04-17T09:56:34Z"
       },
       "fallback_error": null
     }
@@ -69,7 +69,7 @@
       "AhmedAbubaker98/EDA": 8,
       "AhmedAbubaker98/ESP32_FakeFleet": 23,
       "AhmedAbubaker98/flaskapp-DataGlacier": 27,
-      "AhmedAbubaker98/GitInsight": 27,
+      "AhmedAbubaker98/GitInsight": 28,
       "AhmedAbubaker98/GitInsight-V1": 6,
       "AhmedAbubaker98/HiveBox": 1,
       "AhmedAbubaker98/Kintsugi": 18,
@@ -236,7 +236,8 @@
       "2026-02-23": 3,
       "2026-02-24": 1,
       "2026-02-25": 6,
-      "2026-04-15": 1
+      "2026-04-15": 1,
+      "2026-04-17": 1
     },
     "combined_by_month": {
       "2023-01": 8,
@@ -265,7 +266,7 @@
       "2025-12": 20,
       "2026-01": 68,
       "2026-02": 80,
-      "2026-04": 1
+      "2026-04": 2
     },
     "by_account_by_day": {
       "AhmedAbubaker98": {
@@ -331,7 +332,8 @@
         "2026-01-20": 7,
         "2026-02-02": 1,
         "2026-02-09": 2,
-        "2026-04-15": 1
+        "2026-04-15": 1,
+        "2026-04-17": 1
       },
       "AhmedElagibMarkaba": {
         "2025-08-21": 1,
@@ -416,7 +418,7 @@
         "2025-10": 3,
         "2026-01": 34,
         "2026-02": 3,
-        "2026-04": 1
+        "2026-04": 2
       },
       "AhmedElagibMarkaba": {
         "2025-08": 3,
@@ -484,7 +486,8 @@
           "2025-05-26": 6,
           "2025-05-30": 7,
           "2025-05-31": 1,
-          "2025-08-03": 4
+          "2025-08-03": 4,
+          "2026-04-17": 1
         },
         "AhmedAbubaker98/GitInsight-V1": {
           "2025-05-13": 4,
