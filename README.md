@@ -6,7 +6,7 @@
 
 *I build the data infrastructure, then I go explain it to the room.*
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/Ahmed_Elagib-0A66C2?logo=linkedin-white&logoColor=fff)](#) [![Substack](https://img.shields.io/badge/Series_A-FF6719?logo=substack&logoColor=fff)](https://theseriesa.substack.com/) [![Gmail](https://img.shields.io/badge/Gmail-AhmedElagibWork%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:AhmedElagibWork@gmail.com)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/Ahmed_Elagib-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/ahmed-elagib) [![Substack](https://img.shields.io/badge/Series_A-FF6719?logo=substack&logoColor=fff)](https://theseriesa.substack.com/) [![Gmail](https://img.shields.io/badge/Gmail-AhmedElagibWork%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:AhmedElagibWork@gmail.com)
 </div>
 
 <div align="center">
