@@ -61,7 +61,8 @@ stack = {
 
 | Project | Stack | What it does |
 |---|---|---|
-| [**GitInsight**](https://github.com/AhmedAbubaker98/GitInsight) | FastAPI · Redis · PostgreSQL · K8s · OpenAI | AI codebase intelligence: ingest any GitHub repo, surface architecture insights, dependency graphs, and natural-language explanations. Deployed on Kubernetes with HPA + full CI/CD. |
+| [**Kintsugi**](https://github.com/AhmedAbubaker98/Kintsugi) | Python · Docker · Redis · PostgreSQL · CICD | Autonomous AI for self-healing tests without human intervention, powered by Gemini 3. |
+| [**GitInsight**](https://github.com/AhmedAbubaker98/GitInsight) | Pyhton FastAPI · Redis · PostgreSQL · K8s · OpenAI | AI codebase intelligence: ingest any GitHub repo, surface architecture insights, dependency graphs, and natural-language explanations. Deployed on Kubernetes with HPA + full CI/CD. |
 | **Vehicle Valuation Engine (proprietary)** | Python · FastAPI · PostgreSQL · dbt | Multi-source ingestion platform for 5 automotive data providers + pricing computation engine (customs, VAT, SASO, markup) for an Antler-backed fintech. |
 
 ## A Few Things I've Shipped
