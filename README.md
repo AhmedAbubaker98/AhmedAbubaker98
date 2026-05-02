@@ -63,6 +63,7 @@ stack = {
 |---|---|---|
 | [**Kintsugi**](https://github.com/AhmedAbubaker98/Kintsugi) | Python · Docker · Redis · PostgreSQL · CICD | Autonomous AI for self-healing tests without human intervention, powered by Gemini 3. |
 | [**GitInsight**](https://github.com/AhmedAbubaker98/GitInsight) | Pyhton FastAPI · Redis · PostgreSQL · K8s · OpenAI | AI codebase intelligence: ingest any GitHub repo, surface architecture insights, dependency graphs, and natural-language explanations. Deployed on Kubernetes with HPA + full CI/CD. |
+| [SHARD - System for Hostile Activity Recognition and Detection (WIP)](https://github.com/AhmedAbubaker98/SHARD) | Python | SHARD is a defender-focused investigation platform built around a Python multi-agent analysis engine that runs against SIFT tools, VS Code extension that provides case-centric investigation workflows, and audit-first execution logs for evidence traceability |
 | **Vehicle Valuation Engine (proprietary)** | Python · FastAPI · PostgreSQL · dbt | Multi-source ingestion platform for 5 automotive data providers + pricing computation engine (customs, VAT, SASO, markup) for an Antler-backed fintech. |
 
 ## A Few Things I've Shipped
