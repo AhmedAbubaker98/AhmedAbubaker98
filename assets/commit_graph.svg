@@ -23,7 +23,7 @@
 <rect x="0" y="0" width="270" height="470" fill="rgba(22,28,32,.4)"/>
 <path class="icon-fill" d="M 36.0 95.0 C 31.0 95.0 28.0 91.0 28.0 87.0 C 28.0 85.0 29.0 83.0 30.5 81.5 L 31.5 78.0 L 34.4 80.6 C 35.5 80.2 36.5 80.2 37.6 80.6 L 40.5 78.0 L 41.5 81.5 C 43.0 83.0 44.0 85.0 44.0 87.0 C 44.0 91.0 41.0 95.0 36.0 95.0 Z"/>
 <text class="sidebar-label" x="58" y="86">GitHub</text>
-<text class="sidebar-text" x="58" y="106">249 contributions in 2026</text>
+<text class="sidebar-text" x="58" y="106">252 contributions in 2026</text>
 <circle class="icon" cx="36" cy="180" r="8"/>
 <line class="icon" x1="36" y1="180" x2="36" y2="176"/>
 <line class="icon" x1="36" y1="180" x2="40" y2="180"/>
@@ -48,23 +48,25 @@
 <line class="axis" x1="270" x2="1330" y1="25.00" y2="25.00"/>
 <text class="tick" x="260" y="29.00" text-anchor="end">80</text>
 <text class="tick" x="270.00" y="452" text-anchor="middle">Jun</text>
-<text class="tick" x="402.50" y="452" text-anchor="middle">Jul</text>
-<text class="tick" x="535.00" y="452" text-anchor="middle">Aug</text>
-<text class="tick" x="667.50" y="452" text-anchor="middle">Oct</text>
-<text class="tick" x="800.00" y="452" text-anchor="middle">Nov</text>
-<text class="tick" x="932.50" y="452" text-anchor="middle">Dec</text>
-<text class="tick" x="1065.00" y="452" text-anchor="middle">Jan</text>
-<text class="tick" x="1197.50" y="452" text-anchor="middle">Feb</text>
-<text class="tick" x="1330.00" y="452" text-anchor="middle">Apr</text>
-<path class="area" d="M 270.00 416.00 L 270.00 406.23 C 292.08 407.04 358.33 415.19 402.50 411.11 C 446.67 407.04 490.83 389.12 535.00 381.79 C 579.17 374.46 623.33 402.15 667.50 367.12 C 711.67 332.10 755.83 179.77 800.00 171.62 C 844.17 163.48 888.33 332.91 932.50 318.25 C 976.67 303.59 1020.83 132.53 1065.00 83.65 C 1109.17 34.78 1153.33 -21.43 1197.50 25.00 C 1241.67 71.43 1307.92 306.03 1330.00 362.24 L 1330.00 416.00 Z"/>
-<path class="line" d="M 270.00 406.23 C 292.08 407.04 358.33 415.19 402.50 411.11 C 446.67 407.04 490.83 389.12 535.00 381.79 C 579.17 374.46 623.33 402.15 667.50 367.12 C 711.67 332.10 755.83 179.77 800.00 171.62 C 844.17 163.48 888.33 332.91 932.50 318.25 C 976.67 303.59 1020.83 132.53 1065.00 83.65 C 1109.17 34.78 1153.33 -21.43 1197.50 25.00 C 1241.67 71.43 1307.92 306.03 1330.00 362.24" pathLength="1000"/>
+<text class="tick" x="387.78" y="452" text-anchor="middle">Jul</text>
+<text class="tick" x="505.56" y="452" text-anchor="middle">Aug</text>
+<text class="tick" x="623.33" y="452" text-anchor="middle">Oct</text>
+<text class="tick" x="741.11" y="452" text-anchor="middle">Nov</text>
+<text class="tick" x="858.89" y="452" text-anchor="middle">Dec</text>
+<text class="tick" x="976.67" y="452" text-anchor="middle">Jan</text>
+<text class="tick" x="1094.44" y="452" text-anchor="middle">Feb</text>
+<text class="tick" x="1212.22" y="452" text-anchor="middle">Apr</text>
+<text class="tick" x="1330.00" y="452" text-anchor="middle">May</text>
+<path class="area" d="M 270.00 416.00 L 270.00 406.23 C 289.63 407.04 348.52 415.19 387.78 411.11 C 427.04 407.04 466.30 389.12 505.56 381.79 C 544.81 374.46 584.07 402.15 623.33 367.12 C 662.59 332.10 701.85 179.77 741.11 171.62 C 780.37 163.48 819.63 332.91 858.89 318.25 C 898.15 303.59 937.41 132.53 976.67 83.65 C 1015.93 34.78 1055.19 -21.43 1094.44 25.00 C 1133.70 71.43 1172.96 299.51 1212.22 362.24 C 1251.48 424.96 1310.37 394.82 1330.00 401.34 L 1330.00 416.00 Z"/>
+<path class="line" d="M 270.00 406.23 C 289.63 407.04 348.52 415.19 387.78 411.11 C 427.04 407.04 466.30 389.12 505.56 381.79 C 544.81 374.46 584.07 402.15 623.33 367.12 C 662.59 332.10 701.85 179.77 741.11 171.62 C 780.37 163.48 819.63 332.91 858.89 318.25 C 898.15 303.59 937.41 132.53 976.67 83.65 C 1015.93 34.78 1055.19 -21.43 1094.44 25.00 C 1133.70 71.43 1172.96 299.51 1212.22 362.24 C 1251.48 424.96 1310.37 394.82 1330.00 401.34" pathLength="1000"/>
 <circle class="dot" cx="270.00" cy="406.23" r="3.4" style="--i:0;"><title>2025-06: 2 commits</title></circle>
-<circle class="dot" cx="402.50" cy="411.11" r="3.4" style="--i:1;"><title>2025-07: 1 commits</title></circle>
-<circle class="dot" cx="535.00" cy="381.79" r="3.4" style="--i:2;"><title>2025-08: 7 commits</title></circle>
-<circle class="dot" cx="667.50" cy="367.12" r="3.4" style="--i:3;"><title>2025-10: 10 commits</title></circle>
-<circle class="dot" cx="800.00" cy="171.62" r="3.4" style="--i:4;"><title>2025-11: 50 commits</title></circle>
-<circle class="dot" cx="932.50" cy="318.25" r="3.4" style="--i:5;"><title>2025-12: 20 commits</title></circle>
-<circle class="dot" cx="1065.00" cy="83.65" r="3.4" style="--i:6;"><title>2026-01: 68 commits</title></circle>
-<circle class="dot" cx="1197.50" cy="25.00" r="3.4" style="--i:7;"><title>2026-02: 80 commits</title></circle>
-<circle class="dot" cx="1330.00" cy="362.24" r="3.4" style="--i:8;"><title>2026-04: 11 commits</title></circle>
+<circle class="dot" cx="387.78" cy="411.11" r="3.4" style="--i:1;"><title>2025-07: 1 commits</title></circle>
+<circle class="dot" cx="505.56" cy="381.79" r="3.4" style="--i:2;"><title>2025-08: 7 commits</title></circle>
+<circle class="dot" cx="623.33" cy="367.12" r="3.4" style="--i:3;"><title>2025-10: 10 commits</title></circle>
+<circle class="dot" cx="741.11" cy="171.62" r="3.4" style="--i:4;"><title>2025-11: 50 commits</title></circle>
+<circle class="dot" cx="858.89" cy="318.25" r="3.4" style="--i:5;"><title>2025-12: 20 commits</title></circle>
+<circle class="dot" cx="976.67" cy="83.65" r="3.4" style="--i:6;"><title>2026-01: 68 commits</title></circle>
+<circle class="dot" cx="1094.44" cy="25.00" r="3.4" style="--i:7;"><title>2026-02: 80 commits</title></circle>
+<circle class="dot" cx="1212.22" cy="362.24" r="3.4" style="--i:8;"><title>2026-04: 11 commits</title></circle>
+<circle class="dot" cx="1330.00" cy="401.34" r="3.4" style="--i:9;"><title>2026-05: 3 commits</title></circle>
 </svg>
