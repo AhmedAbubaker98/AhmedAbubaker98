@@ -19,7 +19,7 @@
 
 ## What I Do
 
-I'm a backend and data platform engineer with 3 years of experience building systems that move, clean, and serve data at production scale.
+I'm a backend and data platform engineer with experience building systems that move, clean, and serve data at production scale.
 
 My work sits at the intersection of **data engineering**, **cloud infrastructure**, and **backend systems** — I design the pipelines, own the infra they run on, and work directly with product and business stakeholders to turn raw data into decisions.
 
