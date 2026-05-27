@@ -34,7 +34,7 @@
 <text class="day" x="22" y="74">Mon</text>
 <text class="day" x="22" y="119">Thu</text>
 <text class="day" x="22" y="164">Sun</text>
-<rect class="cell l3" x="58" y="64" width="12" height="12" rx="2" style="--i:0;"><title>2025-05-26: 6 commits</title></rect>
+<rect class="cell l0" x="58" y="64" width="12" height="12" rx="2" style="--i:0;"><title>2025-05-26: 0 commits</title></rect>
 <rect class="cell l4" x="58" y="79" width="12" height="12" rx="2" style="--i:1;"><title>2025-05-27: 8 commits</title></rect>
 <rect class="cell l0" x="58" y="94" width="12" height="12" rx="2" style="--i:2;"><title>2025-05-28: 0 commits</title></rect>
 <rect class="cell l4" x="58" y="109" width="12" height="12" rx="2" style="--i:3;"><title>2025-05-29: 12 commits</title></rect>
@@ -203,7 +203,7 @@
 <rect class="cell l0" x="403" y="139" width="12" height="12" rx="2" style="--i:166;"><title>2025-11-08: 0 commits</title></rect>
 <rect class="cell l4" x="403" y="154" width="12" height="12" rx="2" style="--i:167;"><title>2025-11-09: 9 commits</title></rect>
 <rect class="cell l0" x="418" y="64" width="12" height="12" rx="2" style="--i:168;"><title>2025-11-10: 0 commits</title></rect>
-<rect class="cell l3" x="418" y="79" width="12" height="12" rx="2" style="--i:169;"><title>2025-11-11: 6 commits</title></rect>
+<rect class="cell l4" x="418" y="79" width="12" height="12" rx="2" style="--i:169;"><title>2025-11-11: 6 commits</title></rect>
 <rect class="cell l3" x="418" y="94" width="12" height="12" rx="2" style="--i:170;"><title>2025-11-12: 5 commits</title></rect>
 <rect class="cell l0" x="418" y="109" width="12" height="12" rx="2" style="--i:171;"><title>2025-11-13: 0 commits</title></rect>
 <rect class="cell l0" x="418" y="124" width="12" height="12" rx="2" style="--i:172;"><title>2025-11-14: 0 commits</title></rect>
@@ -225,7 +225,7 @@
 <rect class="cell l0" x="448" y="154" width="12" height="12" rx="2" style="--i:188;"><title>2025-11-30: 0 commits</title></rect>
 <rect class="cell l1" x="463" y="64" width="12" height="12" rx="2" style="--i:189;"><title>2025-12-01: 1 commits</title></rect>
 <rect class="cell l1" x="463" y="79" width="12" height="12" rx="2" style="--i:190;"><title>2025-12-02: 1 commits</title></rect>
-<rect class="cell l3" x="463" y="94" width="12" height="12" rx="2" style="--i:191;"><title>2025-12-03: 6 commits</title></rect>
+<rect class="cell l4" x="463" y="94" width="12" height="12" rx="2" style="--i:191;"><title>2025-12-03: 6 commits</title></rect>
 <rect class="cell l0" x="463" y="109" width="12" height="12" rx="2" style="--i:192;"><title>2025-12-04: 0 commits</title></rect>
 <rect class="cell l0" x="463" y="124" width="12" height="12" rx="2" style="--i:193;"><title>2025-12-05: 0 commits</title></rect>
 <rect class="cell l3" x="463" y="139" width="12" height="12" rx="2" style="--i:194;"><title>2025-12-06: 3 commits</title></rect>
@@ -259,7 +259,7 @@
 <rect class="cell l0" x="523" y="139" width="12" height="12" rx="2" style="--i:222;"><title>2026-01-03: 0 commits</title></rect>
 <rect class="cell l0" x="523" y="154" width="12" height="12" rx="2" style="--i:223;"><title>2026-01-04: 0 commits</title></rect>
 <rect class="cell l0" x="538" y="64" width="12" height="12" rx="2" style="--i:224;"><title>2026-01-05: 0 commits</title></rect>
-<rect class="cell l3" x="538" y="79" width="12" height="12" rx="2" style="--i:225;"><title>2026-01-06: 6 commits</title></rect>
+<rect class="cell l4" x="538" y="79" width="12" height="12" rx="2" style="--i:225;"><title>2026-01-06: 6 commits</title></rect>
 <rect class="cell l1" x="538" y="94" width="12" height="12" rx="2" style="--i:226;"><title>2026-01-07: 1 commits</title></rect>
 <rect class="cell l1" x="538" y="109" width="12" height="12" rx="2" style="--i:227;"><title>2026-01-08: 1 commits</title></rect>
 <rect class="cell l0" x="538" y="124" width="12" height="12" rx="2" style="--i:228;"><title>2026-01-09: 0 commits</title></rect>
@@ -272,7 +272,7 @@
 <rect class="cell l4" x="553" y="124" width="12" height="12" rx="2" style="--i:235;"><title>2026-01-16: 12 commits</title></rect>
 <rect class="cell l4" x="553" y="139" width="12" height="12" rx="2" style="--i:236;"><title>2026-01-17: 8 commits</title></rect>
 <rect class="cell l3" x="553" y="154" width="12" height="12" rx="2" style="--i:237;"><title>2026-01-18: 4 commits</title></rect>
-<rect class="cell l3" x="568" y="64" width="12" height="12" rx="2" style="--i:238;"><title>2026-01-19: 6 commits</title></rect>
+<rect class="cell l4" x="568" y="64" width="12" height="12" rx="2" style="--i:238;"><title>2026-01-19: 6 commits</title></rect>
 <rect class="cell l4" x="568" y="79" width="12" height="12" rx="2" style="--i:239;"><title>2026-01-20: 8 commits</title></rect>
 <rect class="cell l1" x="568" y="94" width="12" height="12" rx="2" style="--i:240;"><title>2026-01-21: 1 commits</title></rect>
 <rect class="cell l0" x="568" y="109" width="12" height="12" rx="2" style="--i:241;"><title>2026-01-22: 0 commits</title></rect>
@@ -282,7 +282,7 @@
 <rect class="cell l2" x="583" y="64" width="12" height="12" rx="2" style="--i:245;"><title>2026-01-26: 2 commits</title></rect>
 <rect class="cell l0" x="583" y="79" width="12" height="12" rx="2" style="--i:246;"><title>2026-01-27: 0 commits</title></rect>
 <rect class="cell l1" x="583" y="94" width="12" height="12" rx="2" style="--i:247;"><title>2026-01-28: 1 commits</title></rect>
-<rect class="cell l3" x="583" y="109" width="12" height="12" rx="2" style="--i:248;"><title>2026-01-29: 6 commits</title></rect>
+<rect class="cell l4" x="583" y="109" width="12" height="12" rx="2" style="--i:248;"><title>2026-01-29: 6 commits</title></rect>
 <rect class="cell l0" x="583" y="124" width="12" height="12" rx="2" style="--i:249;"><title>2026-01-30: 0 commits</title></rect>
 <rect class="cell l0" x="583" y="139" width="12" height="12" rx="2" style="--i:250;"><title>2026-01-31: 0 commits</title></rect>
 <rect class="cell l0" x="583" y="154" width="12" height="12" rx="2" style="--i:251;"><title>2026-02-01: 0 commits</title></rect>
@@ -309,7 +309,7 @@
 <rect class="cell l3" x="628" y="154" width="12" height="12" rx="2" style="--i:272;"><title>2026-02-22: 5 commits</title></rect>
 <rect class="cell l3" x="643" y="64" width="12" height="12" rx="2" style="--i:273;"><title>2026-02-23: 3 commits</title></rect>
 <rect class="cell l1" x="643" y="79" width="12" height="12" rx="2" style="--i:274;"><title>2026-02-24: 1 commits</title></rect>
-<rect class="cell l3" x="643" y="94" width="12" height="12" rx="2" style="--i:275;"><title>2026-02-25: 6 commits</title></rect>
+<rect class="cell l4" x="643" y="94" width="12" height="12" rx="2" style="--i:275;"><title>2026-02-25: 6 commits</title></rect>
 <rect class="cell l0" x="643" y="109" width="12" height="12" rx="2" style="--i:276;"><title>2026-02-26: 0 commits</title></rect>
 <rect class="cell l0" x="643" y="124" width="12" height="12" rx="2" style="--i:277;"><title>2026-02-27: 0 commits</title></rect>
 <rect class="cell l0" x="643" y="139" width="12" height="12" rx="2" style="--i:278;"><title>2026-02-28: 0 commits</title></rect>
@@ -366,7 +366,7 @@
 <rect class="cell l0" x="763" y="64" width="12" height="12" rx="2" style="--i:329;"><title>2026-04-20: 0 commits</title></rect>
 <rect class="cell l0" x="763" y="79" width="12" height="12" rx="2" style="--i:330;"><title>2026-04-21: 0 commits</title></rect>
 <rect class="cell l1" x="763" y="94" width="12" height="12" rx="2" style="--i:331;"><title>2026-04-22: 1 commits</title></rect>
-<rect class="cell l3" x="763" y="109" width="12" height="12" rx="2" style="--i:332;"><title>2026-04-23: 6 commits</title></rect>
+<rect class="cell l4" x="763" y="109" width="12" height="12" rx="2" style="--i:332;"><title>2026-04-23: 6 commits</title></rect>
 <rect class="cell l0" x="763" y="124" width="12" height="12" rx="2" style="--i:333;"><title>2026-04-24: 0 commits</title></rect>
 <rect class="cell l0" x="763" y="139" width="12" height="12" rx="2" style="--i:334;"><title>2026-04-25: 0 commits</title></rect>
 <rect class="cell l0" x="763" y="154" width="12" height="12" rx="2" style="--i:335;"><title>2026-04-26: 0 commits</title></rect>
@@ -398,9 +398,9 @@
 <rect class="l2" x="348" y="184" width="10" height="10" rx="2"/>
 <text class="legend" x="364" y="194">Mid &lt;= 2</text>
 <rect class="l3" x="508" y="184" width="10" height="10" rx="2"/>
-<text class="legend" x="524" y="194">High &lt;= 6</text>
+<text class="legend" x="524" y="194">High &lt;= 5</text>
 <rect class="l4" x="668" y="184" width="10" height="10" rx="2"/>
-<text class="legend" x="684" y="194">Peak &gt; 6</text>
+<text class="legend" x="684" y="194">Peak &gt; 5</text>
 <text class="annotation-main" x="709" y="115" text-anchor="middle" dominant-baseline="middle" transform="rotate(-90 709 115)"><tspan x="709" dy="-0.35em">NATIONAL</tspan><tspan x="709" dy="1.1em">HOLIDAY</tspan></text>
 <text class="annotation-secondary" x="229" y="115" text-anchor="middle" dominant-baseline="middle" transform="rotate(-90 229 115)">SABBATICAL</text>
 </svg>
