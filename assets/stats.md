@@ -2,7 +2,7 @@
 
 ### Period
 - from: 2019-01-01T00:00:00Z
-- to: 2026-05-27T03:32:20Z
+- to: 2026-05-28T02:52:02Z
 - commit_selection: higher
 
 ### Totals
