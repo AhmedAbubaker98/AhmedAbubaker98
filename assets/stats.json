@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-10T03:28:59Z",
+  "generated_at": "2026-06-11T03:41:30Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-06-10T03:28:01Z"
+    "to": "2026-06-11T03:40:14Z"
   },
   "selection": {
     "commit_selection": "higher",
@@ -26,14 +26,14 @@
       "prs": 23,
       "issues": 1,
       "restricted": 0,
-      "repos_scanned": 31,
+      "repos_scanned": 30,
       "repos_with_errors": 0,
       "emails": [
         "ahmedkata@gmail.com"
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-06-10T03:28:01Z"
+        "to": "2026-06-11T03:40:14Z"
       },
       "fallback_error": null
     },
@@ -52,7 +52,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-06-10T03:28:01Z"
+        "to": "2026-06-11T03:40:14Z"
       },
       "fallback_error": null
     }
@@ -88,8 +88,7 @@
       "AhmedAbubaker98/skills-introduction-to-secret-scanning": 3,
       "AhmedAbubaker98/skills-secure-repository-supply-chain": 5,
       "AhmedAbubaker98/slim": 3,
-      "AhmedAbubaker98/Vercelw": 1,
-      "Exp-Intro-to-GitHub-Flow-Cohort-1/series-intro-to-github-flow-AhmedAbubaker98": 0
+      "AhmedAbubaker98/Vercelw": 1
     },
     "AhmedElagibMarkaba": {
       "AhmedElagibMarkaba/Tamara-Demo": 0,
