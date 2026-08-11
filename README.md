@@ -2,9 +2,9 @@
 
 # Ahmed Abubekr Elagib
 
-**Data Platform Engineer · Cloud-Native Backend · Distributed Systems**
+**Software Engineer · Cloud-Native & Distributed Systems**
 
-*I build the data infrastructure, then I go explain it to the room.*
+*Nothing worth getting is ever easy to get*
 
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/Ahmed_Elagib-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/ahmed-elagib) [![Substack](https://img.shields.io/badge/Series_A-FF6719?logo=substack&logoColor=fff)](https://theseriesa.substack.com/) [![Gmail](https://img.shields.io/badge/Gmail-AhmedElagibWork%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:AhmedElagibWork@gmail.com)
 </div>
@@ -23,10 +23,7 @@ I'm a backend and data platform engineer with experience building systems that m
 
 My work sits at the intersection of **data engineering**, **cloud infrastructure**, and **backend systems** — I design the pipelines, own the infra they run on, and work directly with product and business stakeholders to turn raw data into decisions.
 
-- 🏗 Currently: Building [`GitInsight`](https://github.com/AhmedAbubaker98/GitInsight) — an AI codebase intelligence platform (FastAPI · Redis · Kubernetes · OpenAI)
-- 🌍 Goal: Data Platform Engineer at a tech company 
-- ☁️ Certified: **AWS Solutions Architect – Associate** · **GitHub Advanced Security**
-
+- 🏗 Currently: Building MCF.
 ---
 
 ## The Stack
