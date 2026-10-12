@@ -23,7 +23,7 @@ I'm a backend and data platform engineer with experience building systems that m
 
 My work sits at the intersection of **data engineering**, **cloud infrastructure**, and **backend systems** — I design the pipelines, own the infra they run on, and work directly with product and business stakeholders to turn raw data into decisions.
 
-- 🏗 Currently: Building MCF.
+- 🏗 Currently: Building SHARD.
 ---
 
 ## The Stack
