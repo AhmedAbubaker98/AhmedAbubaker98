@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-10-12T04:13:43Z",
+  "generated_at": "2026-10-13T05:23:06Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-10-12T04:12:40Z"
+    "to": "2026-10-13T05:21:52Z"
   },
   "selection": {
     "commit_selection": "higher",
     "graphql_fallback_enabled": true
   },
   "totals": {
-    "commits": 474,
-    "accurate_commits": 470,
-    "fallback_commits": 473,
+    "commits": 533,
+    "accurate_commits": 529,
+    "fallback_commits": 532,
     "prs": 59,
     "issues": 24,
     "restricted": 0
   },
   "breakdown": {
     "AhmedAbubaker98": {
-      "commits": 283,
+      "commits": 342,
       "final_source": "graphql_contributions",
-      "accurate_commits": 279,
-      "fallback_commits": 283,
+      "accurate_commits": 338,
+      "fallback_commits": 342,
       "prs": 24,
       "issues": 1,
       "restricted": 0,
-      "repos_scanned": 34,
+      "repos_scanned": 35,
       "repos_with_errors": 0,
       "emails": [
         "ahmedkata@gmail.com"
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-10-12T04:12:40Z"
+        "to": "2026-10-13T05:21:52Z"
       },
       "fallback_error": null
     },
@@ -52,14 +52,14 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-10-12T04:12:40Z"
+        "to": "2026-10-13T05:21:52Z"
       },
       "fallback_error": null
     }
   },
   "per_repo": {
     "AhmedAbubaker98": {
-      "AhmedAbubaker98/AhmedAbubaker98": 8,
+      "AhmedAbubaker98/AhmedAbubaker98": 9,
       "AhmedAbubaker98/AhmedAbubaker98.github.io": 11,
       "AhmedAbubaker98/AhmedAbubaker981": 1,
       "AhmedAbubaker98/Borda_Academy_Submission-Embedded-Software-Internship": 10,
@@ -84,6 +84,7 @@
       "AhmedAbubaker98/randoms": 2,
       "AhmedAbubaker98/SCARA-control-center": 18,
       "AhmedAbubaker98/SHARD": 7,
+      "AhmedAbubaker98/shard-0.10": 58,
       "AhmedAbubaker98/Shard-0.4": 1,
       "AhmedAbubaker98/Shard-0.5": 13,
       "AhmedAbubaker98/shard-0.8": 4,
@@ -268,7 +269,13 @@
       "2026-09-14": 1,
       "2026-09-27": 2,
       "2026-09-28": 2,
-      "2026-09-29": 1
+      "2026-09-29": 1,
+      "2026-10-06": 10,
+      "2026-10-07": 11,
+      "2026-10-09": 7,
+      "2026-10-10": 1,
+      "2026-10-11": 20,
+      "2026-10-12": 10
     },
     "combined_by_month": {
       "2023-01": 8,
@@ -301,7 +308,8 @@
       "2026-05": 11,
       "2026-07": 1,
       "2026-08": 14,
-      "2026-09": 9
+      "2026-09": 9,
+      "2026-10": 59
     },
     "by_account_by_day": {
       "AhmedAbubaker98": {
@@ -393,7 +401,13 @@
         "2026-09-14": 1,
         "2026-09-27": 2,
         "2026-09-28": 2,
-        "2026-09-29": 1
+        "2026-09-29": 1,
+        "2026-10-06": 10,
+        "2026-10-07": 11,
+        "2026-10-09": 7,
+        "2026-10-10": 1,
+        "2026-10-11": 20,
+        "2026-10-12": 10
       },
       "AhmedElagibMarkaba": {
         "2025-08-21": 1,
@@ -482,7 +496,8 @@
         "2026-05": 11,
         "2026-07": 1,
         "2026-08": 14,
-        "2026-09": 9
+        "2026-09": 9,
+        "2026-10": 59
       },
       "AhmedElagibMarkaba": {
         "2025-08": 3,
@@ -501,7 +516,8 @@
           "2026-05-02": 2,
           "2026-05-04": 1,
           "2026-05-13": 1,
-          "2026-08-11": 1
+          "2026-08-11": 1,
+          "2026-10-12": 1
         },
         "AhmedAbubaker98/AhmedAbubaker98.github.io": {
           "2025-03-17": 7,
@@ -619,6 +635,14 @@
         "AhmedAbubaker98/SHARD": {
           "2026-04-22": 1,
           "2026-04-23": 6
+        },
+        "AhmedAbubaker98/shard-0.10": {
+          "2026-10-06": 10,
+          "2026-10-07": 11,
+          "2026-10-09": 7,
+          "2026-10-10": 1,
+          "2026-10-11": 20,
+          "2026-10-12": 9
         },
         "AhmedAbubaker98/Shard-0.4": {
           "2026-07-22": 1
