@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-10-26T03:06:48Z",
+  "generated_at": "2026-10-27T03:37:55Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-10-26T03:05:19Z"
+    "to": "2026-10-27T03:36:41Z"
   },
   "selection": {
     "commit_selection": "higher",
     "graphql_fallback_enabled": true
   },
   "totals": {
-    "commits": 533,
-    "accurate_commits": 529,
-    "fallback_commits": 532,
+    "commits": 534,
+    "accurate_commits": 530,
+    "fallback_commits": 533,
     "prs": 59,
     "issues": 24,
     "restricted": 0
   },
   "breakdown": {
     "AhmedAbubaker98": {
-      "commits": 342,
+      "commits": 343,
       "final_source": "graphql_contributions",
-      "accurate_commits": 338,
-      "fallback_commits": 342,
+      "accurate_commits": 339,
+      "fallback_commits": 343,
       "prs": 24,
       "issues": 1,
       "restricted": 0,
-      "repos_scanned": 35,
+      "repos_scanned": 36,
       "repos_with_errors": 0,
       "emails": [
         "ahmedkata@gmail.com"
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-10-26T03:05:19Z"
+        "to": "2026-10-27T03:36:41Z"
       },
       "fallback_error": null
     },
@@ -52,7 +52,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-10-26T03:05:19Z"
+        "to": "2026-10-27T03:36:41Z"
       },
       "fallback_error": null
     }
@@ -65,6 +65,7 @@
       "AhmedAbubaker98/Borda_Academy_Submission-Embedded-Software-Internship": 10,
       "AhmedAbubaker98/Cora": 7,
       "AhmedAbubaker98/DataGlacierInternship": 13,
+      "AhmedAbubaker98/dealer-engine": 1,
       "AhmedAbubaker98/DEMO": 8,
       "AhmedAbubaker98/EDA": 8,
       "AhmedAbubaker98/ESP32_FakeFleet": 23,
@@ -275,7 +276,8 @@
       "2026-10-09": 7,
       "2026-10-10": 1,
       "2026-10-11": 20,
-      "2026-10-12": 10
+      "2026-10-12": 10,
+      "2026-10-26": 1
     },
     "combined_by_month": {
       "2023-01": 8,
@@ -309,7 +311,7 @@
       "2026-07": 1,
       "2026-08": 14,
       "2026-09": 9,
-      "2026-10": 59
+      "2026-10": 60
     },
     "by_account_by_day": {
       "AhmedAbubaker98": {
@@ -407,7 +409,8 @@
         "2026-10-09": 7,
         "2026-10-10": 1,
         "2026-10-11": 20,
-        "2026-10-12": 10
+        "2026-10-12": 10,
+        "2026-10-26": 1
       },
       "AhmedElagibMarkaba": {
         "2025-08-21": 1,
@@ -497,7 +500,7 @@
         "2026-07": 1,
         "2026-08": 14,
         "2026-09": 9,
-        "2026-10": 59
+        "2026-10": 60
       },
       "AhmedElagibMarkaba": {
         "2025-08": 3,
@@ -545,6 +548,9 @@
           "2024-01-24": 2,
           "2024-02-06": 2,
           "2024-02-07": 3
+        },
+        "AhmedAbubaker98/dealer-engine": {
+          "2026-10-26": 1
         },
         "AhmedAbubaker98/DEMO": {
           "2023-01-29": 1,
