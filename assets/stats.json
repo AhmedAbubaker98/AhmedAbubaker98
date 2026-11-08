@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-07T04:32:59Z",
+  "generated_at": "2026-11-08T04:20:18Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-11-07T04:31:53Z"
+    "to": "2026-11-08T04:18:46Z"
   },
   "selection": {
     "commit_selection": "higher",
@@ -26,14 +26,14 @@
       "prs": 24,
       "issues": 1,
       "restricted": 0,
-      "repos_scanned": 37,
+      "repos_scanned": 38,
       "repos_with_errors": 0,
       "emails": [
         "ahmedkata@gmail.com"
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-11-07T04:31:53Z"
+        "to": "2026-11-08T04:18:46Z"
       },
       "fallback_error": null
     },
@@ -52,7 +52,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-11-07T04:31:53Z"
+        "to": "2026-11-08T04:18:46Z"
       },
       "fallback_error": null
     }
@@ -95,7 +95,8 @@
       "AhmedAbubaker98/skills-introduction-to-secret-scanning": 3,
       "AhmedAbubaker98/skills-secure-repository-supply-chain": 5,
       "AhmedAbubaker98/slim": 3,
-      "AhmedAbubaker98/Vercelw": 1
+      "AhmedAbubaker98/Vercelw": 1,
+      "SIRELKHATIMeng/sallaops-production-for-test": 0
     },
     "AhmedElagibMarkaba": {
       "AhmedElagibMarkaba/Tamara-Demo": 0,
