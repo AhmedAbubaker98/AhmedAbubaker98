@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-11-09T04:34:25Z",
+  "generated_at": "2026-11-10T05:53:39Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-11-09T04:33:05Z"
+    "to": "2026-11-10T05:52:04Z"
   },
   "selection": {
     "commit_selection": "higher",
     "graphql_fallback_enabled": true
   },
   "totals": {
-    "commits": 535,
-    "accurate_commits": 531,
-    "fallback_commits": 534,
+    "commits": 536,
+    "accurate_commits": 532,
+    "fallback_commits": 535,
     "prs": 59,
     "issues": 24,
     "restricted": 0
   },
   "breakdown": {
     "AhmedAbubaker98": {
-      "commits": 344,
+      "commits": 345,
       "final_source": "graphql_contributions",
-      "accurate_commits": 340,
-      "fallback_commits": 344,
+      "accurate_commits": 341,
+      "fallback_commits": 345,
       "prs": 24,
       "issues": 1,
       "restricted": 0,
-      "repos_scanned": 38,
+      "repos_scanned": 39,
       "repos_with_errors": 0,
       "emails": [
         "ahmedkata@gmail.com"
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-11-09T04:33:05Z"
+        "to": "2026-11-10T05:52:04Z"
       },
       "fallback_error": null
     },
@@ -52,7 +52,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-11-09T04:33:05Z"
+        "to": "2026-11-10T05:52:04Z"
       },
       "fallback_error": null
     }
@@ -73,6 +73,7 @@
       "AhmedAbubaker98/GitInsight": 28,
       "AhmedAbubaker98/GitInsight-V1": 6,
       "AhmedAbubaker98/HiveBox": 1,
+      "AhmedAbubaker98/homelab": 1,
       "AhmedAbubaker98/Kintsugi": 19,
       "AhmedAbubaker98/Leffa-main": 4,
       "AhmedAbubaker98/Leffa-mod": 2,
@@ -280,7 +281,8 @@
       "2026-10-11": 20,
       "2026-10-12": 10,
       "2026-10-26": 1,
-      "2026-11-03": 1
+      "2026-11-03": 1,
+      "2026-11-09": 1
     },
     "combined_by_month": {
       "2023-01": 8,
@@ -315,7 +317,7 @@
       "2026-08": 14,
       "2026-09": 9,
       "2026-10": 60,
-      "2026-11": 1
+      "2026-11": 2
     },
     "by_account_by_day": {
       "AhmedAbubaker98": {
@@ -415,7 +417,8 @@
         "2026-10-11": 20,
         "2026-10-12": 10,
         "2026-10-26": 1,
-        "2026-11-03": 1
+        "2026-11-03": 1,
+        "2026-11-09": 1
       },
       "AhmedElagibMarkaba": {
         "2025-08-21": 1,
@@ -506,7 +509,7 @@
         "2026-08": 14,
         "2026-09": 9,
         "2026-10": 60,
-        "2026-11": 1
+        "2026-11": 2
       },
       "AhmedElagibMarkaba": {
         "2025-08": 3,
@@ -593,6 +596,9 @@
         },
         "AhmedAbubaker98/HiveBox": {
           "2025-05-23": 1
+        },
+        "AhmedAbubaker98/homelab": {
+          "2026-11-09": 1
         },
         "AhmedAbubaker98/Kintsugi": {
           "2026-01-15": 2,
