@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T05:51:23Z",
+  "generated_at": "2026-11-19T05:50:30Z",
   "mode": "hybrid_accurate_with_dated_graphql_fallback",
   "period": {
     "from": "2019-01-01T00:00:00Z",
-    "to": "2026-11-18T05:49:47Z"
+    "to": "2026-11-19T05:49:07Z"
   },
   "selection": {
     "commit_selection": "higher",
@@ -33,7 +33,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-11-18T05:49:47Z"
+        "to": "2026-11-19T05:49:07Z"
       },
       "fallback_error": null
     },
@@ -52,7 +52,7 @@
       ],
       "period": {
         "from": "2019-01-01T00:00:00Z",
-        "to": "2026-11-18T05:49:47Z"
+        "to": "2026-11-19T05:49:07Z"
       },
       "fallback_error": null
     }
